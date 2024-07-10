@@ -4,6 +4,15 @@ body {
     margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
 .header,
 .section-one {
     background-color: #1F2937;
@@ -101,6 +110,8 @@ body {
     height: 150px;
     border-radius: 15px;
     border: 3px solid #3882f6;
+    vertical-align: middle;
+    margin-bottom: 8px;
 }
 
 .section-three {
@@ -135,4 +146,20 @@ body {
 
 .call-to-action {
     background-color: #3882f6;
+    padding: 48px 116px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action-main {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 8px;
+}
+
+.bordered {
+    border: 3px solid #F9FAF8;
 }
